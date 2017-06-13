@@ -10,8 +10,8 @@ body {
 
 // Layout
 main {
-    background: #fff;
-    margin: 0 auto;
+    background: darkslategray;
+    margin: auto;
     width: 90%;
 }
 
@@ -43,11 +43,12 @@ article {
 }
 
 article figure {
-  background: #ffffff;
+  background: #e8e8e8;
   padding: 2em;
   width: 20em;
+
   
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -61,3 +62,32 @@ h1, h2, figcaption {
 	line-height: 26.4px;
 }
 
+h1 {
+    font-size: 9em;
+    font-weight: 700;
+    text-align: center;
+    color: darkslategrey;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 100; 
+    color:white;
+    text-align:inherit;
+    padding-left: 10px;
+    padding-bottom: 10px; 
+    padding-top: 19px; 
+    margin-right: 10px;
+    line-height: normal;
+    
+}
+
+figcaption {
+    font-size: 2em;
+    font-weight: 100; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+   color: darkslategray;
+    line-height: 1em;
+    
+}
